@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser'; //Ele prepara a aplicaçao para ser rodada em broweser
+import { BrowserModule } from '@angular/platform-browser'; //Ele prepara a aplicaçao para ser rodada em browser
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; //Modulo de formulários
 import { HttpClientModule } from '@angular/common/http';
