@@ -9,6 +9,9 @@ import { Cursos1Component } from './cursos1.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    Cursos1Component,
   ]
 })
 export class Cursos1Module { }

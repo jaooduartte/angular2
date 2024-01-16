@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser'; //Ele prepara a aplic
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; //Modulo de formulários
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { Cursos1Component } from './cursos1/cursos1.component';
@@ -13,12 +14,12 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 @NgModule({
     declarations: [
-     
+        
         AppComponent,
         MeuPrimeiroComponent,
         MeuPrimeiro2Component
         ],
-        imports: [BrowserModule, FormsModule, HttpClientModule],
+        imports: [Cursos1Module, BrowserModule, FormsModule, HttpClientModule],
         providers: [], //Autenticação, rotas, login...
         bootstrap: []
 })
